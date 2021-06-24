@@ -1,0 +1,37 @@
+@import 'profix';
+
+$p : #fca311;
+$w : #fff;
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background: blueviolet;
+    display: grid;
+    place-content: center;
+
+    .wereper {
+        background: #fff;
+        height: 300px;
+        width: 600px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+}
+
+input[type="text"] {
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.user, .admin {
+    background: cornflowerblue;
+    height: 80px;
+    width: 100px;
+    display: grid;
+    place-content: center;
+    margin: auto;
+}
